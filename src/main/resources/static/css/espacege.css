@@ -1,0 +1,98 @@
+h2{
+  text-align: center;
+  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:18px;
+  }
+  
+  li a:hover {
+    background-color:orangered;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-image:url(espacege.jpg);
+    background-size: cover;
+  }
+  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: #fff;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  a:hover {
+    background-color:orangered;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color:orangered;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  h2{
+      color: #fff;
+  }
+  .avatar{
+    vertical-align: middle;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 50px;
+  }
+  img{
+      text-align: center;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }

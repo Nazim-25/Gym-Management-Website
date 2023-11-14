@@ -1,0 +1,57 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:black;
+}
+
+li {
+  float:right;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:orangered;
+}
+
+h1{
+   color: orange;
+  text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-radius: 50%;
+  width: 100%;
+  background-color: transparent;
+  margin: 3px;
+  padding: 50px;
+}
+.D , .M , .J , .S{
+  color: orange;
+}
+.L , .ME , .V{
+  color: white;
+}
+body{
+  background-color:grey;
+}
+.un ,.deux , .trois, .quat, .dernier{
+  background-color: orange;
+}
+th , td {
+  text-align: center;
+ 
+  padding: 15px;
+
+}
+.premier ,.dexieme ,.troisieme ,.quatrieme ,.cinquieme{
+  color: aliceblue;
+  font-size: 22px;
+}

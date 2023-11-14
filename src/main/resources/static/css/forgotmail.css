@@ -1,0 +1,83 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color:black;
+  }
+  
+  li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:orangered;
+  }
+  
+  body{
+      background-image: url(forgotmail.jpg);
+      background-size: cover;
+      font-family: Arial, Helvetica, sans-serif; 
+  }
+  .firm{
+      max-width: 380 px;
+    margin: auto;
+    
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff;
+    box-sizing: border-box;
+    background-color: grey;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top:50px;
+  }
+  h3{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: aliceblue;
+      text-align: center;
+      text-transform: capitalize;
+  }
+  .form-control{
+      widows: 10px ;
+      margin: 10 px  0;
+      outline: none;
+      background-color:orange;
+      color:#fff ;
+      padding: 10px 6;
+      font-size: 16px;
+      font-weight: bold;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 1px #fff solid;
+      border-radius: 20px;
+  }
+  .btn {
+      width:80 px ;
+      border-radius:12 px ;
+      padding: 10px;
+      background-color:black ;
+      color: #fff;
+      font-size: 20 px;
+      font-weight: bold;
+      outline: none;
+      cursor: pointer;
+      margin: 30px 10px 0px 10px;
+  }
+  .form-label{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:beige;
+  
+  }
+  
