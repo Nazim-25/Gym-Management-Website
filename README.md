@@ -1,4 +1,5 @@
 # Gym-Management-Website
+This is a Java Spring Boot web application for managing the operations of a gym. It allows gym administrators and members to perform various tasks related to member management, class scheduling, workout tracking, and payments.
 
 [![GitHub license](https://img.shields.io/github/license/Nazim-25/Gym-Management-Website)](https://github.com/Nazim-25/Gym-Management-Website/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/Nazim-25/Gym-Management-Website)](https://github.com/Nazim-25/Gym-Management-Website/issues)
@@ -6,13 +7,11 @@
 [![GitHub forks](https://img.shields.io/github/forks/Nazim-25/Gym-Management-Website)](https://github.com/Nazim-25/Gym-Management-Website/network)
 
 ## Overview
-
-Welcome to the Gym Management Website repository! This project aims to streamline gym operations and enhance member experiences by providing a user-friendly interface for managing various aspects of a gym, from member registration to workout tracking.
+The Gym Management Website aims to streamline operations and enhance the member experience for gyms. It provides a centralized web interface for gym administrators and members to manage various core aspects of the business from one centralized online location. This allows for improved efficiency, data tracking, and service.
 
 ## Table of Contents
-
-- [Technologies Used](#Technologies Used)
 - [Features](#features)
+- [Technologies Used](#Technologies)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -31,13 +30,14 @@ Welcome to the Gym Management Website repository! This project aims to streamlin
 
 ## Technologies Used
 
-- Java
-- Spring Boot
-- MySQL
-- Lombok
-- HTML/CSS
-- JSP
-- JavaScript
+- Java: The main programming language used for developing the backend logic and APIs.
+- Spring Boot: A Java framework used for building robust and scalable web applications.
+- MySQL: A relational database management system used to store data.
+- Lombok: A Java library that helps reduce boilerplate code in the project.
+- HTML/CSS: Frontend technologies for creating the user interface and styling.
+- JSP (JavaServer Pages): A technology used for creating dynamic web pages with Java.
+- JavaScript: A scripting language used for enhancing user interactivity.
+
 
 
 ## Installation
@@ -73,9 +73,13 @@ To run this project locally, follow these steps:
      This step is necessary for the mailing option to work.
 
 8. **Run the Application**:
-   - Find and run the `DemoApplication.java` class as a Spring Boot application. You can typically do this in your integrated development environment (IDE) by right-clicking on the file and selecting "Run As" -> "Spring Boot App."
+    - Open the project in an IDE (e.g., IntelliJ, Eclipse).
+    - Build the project to resolve dependencies.
+    - Find and run the `DemoApplication.java` class as a Spring Boot application. You can typically do this in your integrated development environment (IDE) by right-clicking on the file and selecting "Run As" -> "Spring Boot App."
 
-9. Open your browser and visit [http://localhost:8080](http://localhost:8080).
+    
+
+10. Open your browser and visit [http://localhost:8080](http://localhost:8080).
 
 Now, your Gym Management Website should be connected to your MySQL database, and you can access it locally. If you encounter any issues during this process, please refer to the [Issues](#issues) section or [open an issue](https://github.com/Nazim-25/Gym-Management-Website/issues). Your feedback is highly appreciated.
 
