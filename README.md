@@ -11,9 +11,10 @@ The Gym Management Website aims to streamline operations and enhance the member 
 
 ## Table of Contents
 - [Features](#features)
-- [Technologies Used](#Technologies)
+- [Technologies Used](#TechnologiesUsed)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Some Pictures](#SomePictures)
 - [Contributing](#contributing)
 - [License](#license)
 - [Issues](#issues)
@@ -90,10 +91,58 @@ Thank you for choosing the Gym Management Website! We appreciate your support.
 
 After installation, you can use the website to manage gym-related tasks. Key functionalities include:
 
-- Visit the homepage to log in as an administrator or a member.
-- Administrators can access member management, workout tracking, class scheduling, and payment tracking features.
-- Members can log workouts, view class schedules, and check payment status.
+- Visit the homepage to log in as an administrator, member, or coach.
+- Administrators can access comprehensive tools for gym management, including:
+  - Member management: Add, edit, and remove member details.
+  - Workout tracking: Monitor member workouts and progress over time.
+  - Class scheduling: Display gym class schedules and allow users to sign up.
+  - Payment tracking: Keep track of member payments and due dates.
+  - Coach management: Manage coaches, their schedules, and assignments.
+  - Discipline management: Administer disciplines offered at the gym.
+  - Subscription management: Handle gym membership plans and pricing.
+  - Planning management: Organize and manage workout sessions and schedules.
 
+- Members can log workouts, view class schedules, and check payment status.
+- Coaches have access to tools for planning and managing workout sessions for members.
+- Visitors can explore the following information without logging in:
+  - View gym planning: Explore workout sessions and schedules.
+  - Browse available subscriptions: Learn about gym membership plans and pricing.
+  - Explore coaches: Get information about coaches available at the gym.
+  - Discover gym disciplines: Learn about the various disciplines offered.
+
+
+
+## Some Pictures
+
+<div style="position:relative;">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:white; font-weight:bold; font-size:20px;">Index page </div>
+  <img src="Images/index Page.jpg" width="700">
+</div>
+
+<div style="position:relative;">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:white; font-weight:bold; font-size:20px;">Gerant dashbord </div>
+  <img src="Images/Gerant Dashbord.jpg" width="700">
+</div>
+
+<div style="position:relative;">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:white; font-weight:bold; font-size:20px;">Abonné dashbord</div>
+  <img src="/Images/Abonné dashbord.jpg" width="700">
+</div>
+
+<div style="position:relative;">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:white; font-weight:bold; font-size:20px;">Manage subscriptions</div>
+  <img src="Images/Manage Subscriptions.jpg" width="700">
+</div>
+
+<div style="position:relative;">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:white; font-weight:bold; font-size:20px;">Show planning </div>
+  <img src="Images/Planning.jpg" width="700">
+</div>
+
+<div style="position:relative;">
+  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:white; font-weight:bold; font-size:20px;">Show Subscriptions.jpg</div>
+  <img src="/Images/Show Subscriptions.jpg" width="700">
+</div>
 
 
 ## Contributing
