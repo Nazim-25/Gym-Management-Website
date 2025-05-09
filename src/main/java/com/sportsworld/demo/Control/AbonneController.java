@@ -1,4 +1,4 @@
-package com.example.demo.Control;
+package com.sportsworld.demo.Control;
 
 import java.sql.SQLException;
 
@@ -23,28 +23,28 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.demo.DAO.Abonne;
-import com.example.demo.DAO.Abonnement;
-import com.example.demo.DAO.AbonnementsInforamtions;
-import com.example.demo.DAO.CompteBancaire;
-import com.example.demo.DAO.Discipline;
-import com.example.demo.DAO.InscriptionAbonnement;
-import com.example.demo.DAO.InscriptionSéance;
-import com.example.demo.DAO.Mdp;
-import com.example.demo.DAO.Payements;
-import com.example.demo.DAO.Seance;
-import com.example.demo.Metier.Operations;
-import com.example.demo.Repository.AbonneRepository;
-import com.example.demo.Repository.AbonnementDisciplinesRepository;
-import com.example.demo.Repository.AbonnementRepository;
-import com.example.demo.Repository.CompteBancaireRepository;
-import com.example.demo.Repository.InscriptionAbonnementRepository;
-import com.example.demo.Repository.InscriptionSeanceRepository;
-import com.example.demo.Repository.PayementsRepository;
-import com.example.demo.Repository.SeanceRepository;
-import com.example.demo.Services.EmailService;
-import com.example.demo.Services.GerantService;
-import com.example.demo.Services.VisiteurService;
+import com.sportsworld.demo.DAO.Abonne;
+import com.sportsworld.demo.DAO.Abonnement;
+import com.sportsworld.demo.DAO.AbonnementsInforamtions;
+import com.sportsworld.demo.DAO.CompteBancaire;
+import com.sportsworld.demo.DAO.Discipline;
+import com.sportsworld.demo.DAO.InscriptionAbonnement;
+import com.sportsworld.demo.DAO.InscriptionSéance;
+import com.sportsworld.demo.DAO.Mdp;
+import com.sportsworld.demo.DAO.Payements;
+import com.sportsworld.demo.DAO.Seance;
+import com.sportsworld.demo.Metier.Operations;
+import com.sportsworld.demo.Repository.AbonneRepository;
+import com.sportsworld.demo.Repository.AbonnementDisciplinesRepository;
+import com.sportsworld.demo.Repository.AbonnementRepository;
+import com.sportsworld.demo.Repository.CompteBancaireRepository;
+import com.sportsworld.demo.Repository.InscriptionAbonnementRepository;
+import com.sportsworld.demo.Repository.InscriptionSeanceRepository;
+import com.sportsworld.demo.Repository.PayementsRepository;
+import com.sportsworld.demo.Repository.SeanceRepository;
+import com.sportsworld.demo.Services.EmailService;
+import com.sportsworld.demo.Services.GerantService;
+import com.sportsworld.demo.Services.VisiteurService;
 
 @Controller
 public class AbonneController {
